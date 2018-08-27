@@ -8,6 +8,19 @@
 </head>
 
 <body>
-	<script src=""></script>
+	<script>
+		let forNavn = prompt("Hvad hedder du til fornavn?");
+		let efterNavn = prompt("Hvad hedder du til efternavn?");
+
+		if (forNavn != null && forNavn != "" && efterNavn != null && efterNavn != "") {
+			alert("Goddag " + forNavn + efterNavn);
+		} else if (forNavn != null && forNavn != "") {
+			alert("Goddag " + forNavn + efterNavn);
+		} else if (efterNavn != null && efterNavn != "") {
+			alert("Goddag " + forNavn + efterNavn);
+		} else {
+			alert("Goddag min ven");
+		}
+	</script>
 </body>
 </html>
